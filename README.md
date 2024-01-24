@@ -34,7 +34,7 @@ torchdrug==0.2.0
 1. Preprocess the pre-training dataset
     - After downloading the full  AlphaFold Swiss-Prot dataset, you are supposed to leverage the `src\alphafold.py`  to transform the original protein PDB file into a `NetworkX` file. 
 2. Pretrain the protein structure model and sequence model.
-   - Run the file `src\pretrain_model.py` to pretrain these two models simultaneously.
+   - Run the file `src\pretrain_model.py` to pretrain two models simultaneously.
 3. Evaluate the pretrained structure model on benchmark datasets.
     - Transform the downloaded dataset to the `NetworkX` format.
     - Run the file `src\pipeline.py` to evaluate the model on downstream tasks.
